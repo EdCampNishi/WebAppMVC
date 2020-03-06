@@ -22,7 +22,7 @@ namespace WebApp.Data.Mapeamento
             Property(x => x.Categoria_Codigo).HasColumnName("PRD_CATEGORIA_CODIGO");
 
             HasRequired(x => x.Categoria)
-                .WithMany()
+                .WithMany(y => y.Produtos)
                 .HasForeignKey(x => x.Categoria_Codigo);
 
         }

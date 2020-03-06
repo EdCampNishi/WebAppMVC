@@ -129,8 +129,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\Contexto.cs" />
+    <Compile Include="Data\Interfaces\IRepositorio.cs" />
+    <Compile Include="Data\Interfaces\IUnitOfWork.cs" />
     <Compile Include="Data\Mapeamento\CategoriaMap.cs" />
     <Compile Include="Data\Mapeamento\ProdutoMap.cs" />
+    <Compile Include="Data\Repositorio\Repositorio.cs" />
+    <Compile Include="Data\UnitOfWork\UnitOfWork.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

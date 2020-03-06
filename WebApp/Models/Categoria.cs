@@ -9,5 +9,7 @@ namespace WebApp.Models
     {
         public int Codigo { get; set; }
         public string Nome { get; set; }
+        
+        public virtual IList<Produto> Produtos { get; set; }
     }
 }
